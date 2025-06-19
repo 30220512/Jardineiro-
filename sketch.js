@@ -33,7 +33,7 @@ function draw() {
 function mostrarInformacoes() {
   textSize(26);
   fill(0);
-  text("Vamos plantar árvores para reduzir a temperatura?",10, 30)
+  text("Ajude a nossa grande casa🌎 Plante árvores!",10, 30)
   textSize(14);
   fill('white');
   text("Temperatura: " + temperatura.toFixed(2), 10, 390);
@@ -55,7 +55,7 @@ function verificarFimDeJogo() {
 function mostrarMensagemDeVitoria() {
   textSize(20);
   fill(0, 0, 0);
-  text("🎉Parabéns você salvou o jardineiro!", 100, 200);
+  text(" MUITO BEM🎉VOCÊ NOS SALVOU!🌹✨❤️", 100, 200);
   noLoop();
 }
  
@@ -63,7 +63,7 @@ function mostrarMensagemDeVitoria() {
 function mostrarMensagemDeDerrota() {
   textSize(20);
   fill(0, 0, 0);
-  text("😒 Você perdeu! A temperatura está muito alta.", 100, 200);
+  text("😒 Acabou. Ele não aguentou o calor 🥵🔥", 100, 200);
   noLoop();
 }
 // Classe que cria o Jardineiro
